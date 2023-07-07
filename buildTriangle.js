@@ -22,15 +22,15 @@ function makeLine(length) {
     return line + "\n";
 }
 
-function buildTriangle(x) {
+function buildTriangle(hieght) {
     
     var triangle = "";
 
-    for (var i = 0; i <= x; i++) {
+    for (var i = 0; i <= hieght; i++) {
         triangle += makeLine(i);
     }
 
     return triangle;
 }
 
-console.log(buildTriangle(10));
+console.log(buildTriangle(5));

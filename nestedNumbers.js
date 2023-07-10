@@ -24,7 +24,7 @@ var numbers = [
 // your code goes here
 for (var row = 0; row < numbers.length; row++) {
     
-    for (var colum = 0; colum < numbers[ror].length; colum++) {
+    for (var colum = 0; colum < numbers[row].length; colum++) {
         
         if (numbers[colum][row] % 2 === 0) {
             

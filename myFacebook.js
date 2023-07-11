@@ -20,8 +20,8 @@
 
 // your code goes here
 var facebookProfile = {
-    name: "Udacian",
-    friends: 25,
+    name: "Siboniseni",
+    friends: 2225,
     messages: ["Message 1", "Message 2", "Message 3", "Message 4"],
     postMessage: function(message){
         facebookProfile.messages.push(message);

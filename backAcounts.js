@@ -31,4 +31,4 @@ var savingsAccount = {
     }
 };
 
-console.log(savingsAccount.printAccountSummary());
+console.log(savingsAccount.withdraw(50));
